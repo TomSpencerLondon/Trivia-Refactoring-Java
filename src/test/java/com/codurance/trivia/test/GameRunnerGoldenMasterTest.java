@@ -3,13 +3,12 @@ package com.codurance.trivia.test;
 import com.adaptionsoft.games.uglytrivia.Game;
 import java.util.Random;
 
-// Intentionally duplicates production GameRunner for now.
+// SMELL Most of this code seems to belong in Game - why is it in main?
 public class GameRunnerGoldenMasterTest {
 
   private static boolean notAWinner;
 
   public static void main(String[] args) {
-    // SMELL
     Game aGame = new Game();
 
     aGame.add("Chet");
