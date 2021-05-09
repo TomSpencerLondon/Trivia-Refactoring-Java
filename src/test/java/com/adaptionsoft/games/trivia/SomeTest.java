@@ -16,19 +16,6 @@ public class SomeTest {
     aGame.add("Pat");
     aGame.add("Sue");
 
-    do {
-
-      aGame.roll(6);
-
-      if (Math.random() == 7) {
-        notAWinner = aGame.wrongAnswer();
-      } else {
-        notAWinner = aGame.wasCorrectlyAnswered();
-      }
-
-
-
-    } while (notAWinner);
 
 
   }
