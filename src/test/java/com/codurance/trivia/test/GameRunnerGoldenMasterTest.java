@@ -17,13 +17,8 @@ public class GameRunnerGoldenMasterTest {
 
     // REFACTOR Make current working directory more explicit?
     final File testRunOutputFile = new File("test-data", "golden-master.txt");
-    final PrintWriter canvas = new PrintWriter(new FileWriter(testRunOutputFile));
-    canvas.println("Hello, world!");
-    canvas.flush();
-    canvas.close();
 
     System.setOut(new PrintStream(testRunOutputFile));
-
     Game aGame = new Game();
 
     aGame.add("Chet");
