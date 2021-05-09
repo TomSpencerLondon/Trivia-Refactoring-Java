@@ -3,7 +3,7 @@ package com.adaptionsoft.games.trivia.runner;
 import com.adaptionsoft.games.uglytrivia.Game;
 import java.util.Random;
 
-
+// SMELL Most of this code seems to belong in Game - why is it in main?
 public class GameRunner {
 
   private static boolean notAWinner;
