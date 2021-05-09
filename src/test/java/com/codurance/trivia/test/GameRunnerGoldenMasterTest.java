@@ -4,7 +4,7 @@ package com.codurance.trivia.test;
 import com.adaptionsoft.games.uglytrivia.Game;
 import java.util.Random;
 
-
+// Intentionally duplicates production GameRunner for now.
 public class GameRunnerGoldenMasterTest {
 
 	private static boolean notAWinner;
