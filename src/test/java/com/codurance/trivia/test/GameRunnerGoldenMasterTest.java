@@ -11,7 +11,7 @@ import java.util.Random;
 import org.junit.Test;
 
 public class GameRunnerGoldenMasterTest {
-
+  private int seed = 7777;
   private static boolean notAWinner;
 
   @Test
@@ -28,7 +28,6 @@ public class GameRunnerGoldenMasterTest {
     aGame.add("Pat");
     aGame.add("Sue");
 
-    int seed = 7777;
     Random rand = new Random(seed);
 
     do {
