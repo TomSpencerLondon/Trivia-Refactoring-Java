@@ -28,7 +28,8 @@ public class GameRunnerGoldenMasterTest {
     aGame.add("Pat");
     aGame.add("Sue");
 
-    Random rand = new Random(7777);
+    int seed = 7777;
+    Random rand = new Random(seed);
 
     do {
       aGame.roll(rand.nextInt(5) + 1);
