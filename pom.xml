@@ -18,6 +18,12 @@
       <artifactId>approvaltests</artifactId>
       <version>11.2.3</version>
     </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.8.0</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
